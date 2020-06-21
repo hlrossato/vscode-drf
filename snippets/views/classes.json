@@ -1,0 +1,56 @@
+{
+    "createapiview": {
+        "prefix": "createapiview",
+        "body": "\r\nclass ${1:MODELNAME}CreateAPIView(CreateAPIView):\r\n    queryset = ${1:MODELNAME}.objects.all()\r\n    serializer_class = ${1:MODELNAME}ModelSerializer\n\n\n",
+        "description": "",
+        "scope": "source.python"
+    },
+    "listapiview": {
+        "prefix": "listapiview",
+        "body": "\r\nclass ${1:MODELNAME}ListAPIView(ListAPIView):\r\n    queryset = ${1:MODELNAME}.objects.all()\r\n    serializer_class = ${1:MODELNAME}ModelSerializer\n\n\n",
+        "description": "",
+        "scope": "source.python"
+    },
+    "retrieveapiview": {
+        "prefix": "retrieveapiview",
+        "body": "\r\nclass ${1:MODELNAME}RetrieveAPIView(RetrieveAPIView):\r\n    queryset = ${1:MODELNAME}.objects.all()\r\n    serializer_class = ${1:MODELNAME}ModelSerializer\n\n\n",
+        "description": "",
+        "scope": "source.python"
+    },
+    "destroyapiview": {
+        "prefix": "destroyapiview",
+        "body": "\r\nclass ${1:MODELNAME}DestroyAPIView(DestroyAPIView):\r\n    queryset = ${1:MODELNAME}.objects.all()\r\n    serializer_class = ${1:MODELNAME}ModelSerializer\n\n\n",
+        "description": "",
+        "scope": "source.python"
+    },
+    "updateapiview": {
+        "prefix": "updateapiview",
+        "body": "\r\nclass ${1:MODELNAME}UpdateAPIView(UpdateAPIView):\r\n    queryset = ${1:MODELNAME}.objects.all()\r\n    serializer_class = ${1:MODELNAME}ModelSerializer\n\n\n",
+        "description": "",
+        "scope": "source.python"
+    },
+    "listcreateapiview": {
+        "prefix": "listcreateapiview",
+        "body": "\r\nclass ${1:MODELNAME}ListCreateAPIView(ListCreateAPIView):\r\n    queryset = ${1:MODELNAME}.objects.all()\r\n    serializer_class = ${1:MODELNAME}ModelSerializer\n\n\n",
+        "description": "",
+        "scope": "source.python"
+    },
+    "retrieveupdateapiview": {
+        "prefix": "retrieveupdateapiview",
+        "body": "\r\nclass ${1:MODELNAME}RetrieveUpdateAPIView(RetrieveUpdateAPIView):\r\n    queryset = ${1:MODELNAME}.objects.all()\r\n    serializer_class = ${1:MODELNAME}ModelSerializer\n\n\n",
+        "description": "",
+        "scope": "source.python"
+    },
+    "retrievedestroyapiview": {
+        "prefix": "retrievedestroyapiview",
+        "body": "\r\nclass ${1:MODELNAME}RetrieveDestroyAPIView(RetrieveDestroyAPIView):\r\n    queryset = ${1:MODELNAME}.objects.all()\r\n    serializer_class = ${1:MODELNAME}ModelSerializer\n\n\n",
+        "description": "",
+        "scope": "source.python"
+    },
+    "retrieveupdatedestroyapiview": {
+        "prefix": "retrieveupdatedestroyapiview",
+        "body": "\r\nclass ${1:MODELNAME}RetrieveUpdateDestroyAPIView(RetrieveDestroyAPIView):\r\n    queryset = ${1:MODELNAME}.objects.all()\r\n    serializer_class = ${1:MODELNAME}ModelSerializer\n\n\n",
+        "description": "",
+        "scope": "source.python"
+    }
+}
