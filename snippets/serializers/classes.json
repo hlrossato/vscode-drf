@@ -1,0 +1,26 @@
+{
+    "serializer": {
+        "prefix": "serializer",
+        "body": "\r\nclass ${1:NAME}Serializer(serializers.Serializer):\r\n    ",
+        "description": "",
+        "scope": "source.python"
+    },
+    "modelserializer": {
+        "prefix": "mserializer",
+        "body": "\r\nclass ${1:MODELNAME}Serializer(serializers.ModelSerializer):\r\n    class Meta:\r\n        model = ${1:MODELNAME}\r\n        fields = []\n\n\n",
+        "description": "",
+        "scope": "source.python"
+    },
+    "hyperlinkedmodelserializer": {
+        "prefix": "hmserializer",
+        "body": "\r\nclass ${1:MODELNAME}Serializer(serializers.HyperlinkedModelSerializer):\r\n    class Meta:\r\n        model = ${1:MODELNAME}\r\n        fields = []\n\n\n",
+        "description": "",
+        "scope": "source.python"
+    },
+    "listserializer": {
+        "prefix": "lserializer",
+        "body": "\r\nclass ${1:MODELNAME}ListSerializer(serializers.ListSerializer):\r\n    ",
+        "description": "",
+        "scope": "source.python"
+    }
+}

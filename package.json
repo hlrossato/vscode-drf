@@ -16,6 +16,10 @@
             {
                 "language": "python",
                 "path": "./snippets/views/classes.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/serializers/classes.json"
             }
         ]
     }
