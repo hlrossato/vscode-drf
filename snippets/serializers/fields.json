@@ -1,0 +1,80 @@
+{
+    "sbool": {
+        "prefix": "sbool",
+        "body": "${1:FIELDNAME} = serializers.BooleanField($2)",
+        "description": "",
+        "scope": "source.python"
+    },
+    "snullbool": {
+        "prefix": "snullbool",
+        "body": "${1:FIELDNAME} = serializers.NullBooleanField($2)",
+        "description": "",
+        "scope": "source.python"
+    },
+    "schar": {
+        "prefix": "schar",
+        "body": "${1:FIELDNAME} = serializers.CharField($2)",
+        "description": "",
+        "scope": "source.python"
+    },
+    "semail": {
+        "prefix": "semail",
+        "body": "${1:FIELDNAME} = serializers.EmailField($2)",
+        "description": "",
+        "scope": "source.python"
+    },
+    "sregex": {
+        "prefix": "sregex",
+        "body": "${1:FIELDNAME} = serializers.RegexField($2)",
+        "description": "",
+        "scope": "source.python"
+    },
+    "sslug": {
+        "prefix": "sslug",
+        "body": "${1:FIELDNAME} = serializers.SlugField($2)",
+        "description": "",
+        "scope": "source.python"
+    },
+    "surl": {
+        "prefix": "surl",
+        "body": "${1:FIELDNAME} = serializers.URLField($2)",
+        "description": "",
+        "scope": "source.python"
+    },
+    "suuid": {
+        "prefix": "suuid",
+        "body": "${1:FIELDNAME} = serializers.UUIDField($2)",
+        "description": "",
+        "scope": "source.python"
+    },
+    "sfilepath": {
+        "prefix": "sfilepath",
+        "body": "${1:FIELDNAME} = serializers.FilePathField($2)",
+        "description": "",
+        "scope": "source.python"
+    },
+    "sip": {
+        "prefix": "sip",
+        "body": "${1:FIELDNAME} = serializers.IPAddressField($2)",
+        "description": "",
+        "scope": "source.python"
+    },
+    "sint": {
+        "prefix": "sint",
+        "body": "${1:FIELDNAME} = serializers.IntegerField($2)",
+        "description": "",
+        "scope": "source.python"
+    },
+    "sfloat": {
+        "prefix": "sfloat",
+        "body": "${1:FIELDNAME} = serializers.FloatField($2)",
+        "description": "",
+        "scope": "source.python"
+    },
+    "sdecimal": {
+        "prefix": "sdecimal",
+        "body": "${1:FIELDNAME} = serializers.DecimalField(max_digits=$2, decimal_places=$3)",
+        "description": "",
+        "scope": "source.python"
+    }
+}
