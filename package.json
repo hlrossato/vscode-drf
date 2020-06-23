@@ -1,6 +1,6 @@
 {
     "name": "vscode-drf",
-    "displayName": "DRF Snippers",
+    "displayName": "DRF Snippets",
     "description": "Django REST Framework snippets for Visual Studio Code",
     "version": "0.0.1",
     "publisher": "hlrossato",
@@ -11,6 +11,10 @@
     "categories": [
         "Snippets"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hlrossato/vscode-drf"
+    },
     "contributes": {
         "snippets": [
             {
