@@ -76,5 +76,77 @@
         "body": "${1:FIELDNAME} = serializers.DecimalField(max_digits=$2, decimal_places=$3)",
         "description": "",
         "scope": "source.python"
+    },
+    "sdatetime": {
+        "prefix": "sdatetime",
+        "body": "${1:FIELDNAME} = serializers.DateTimeField($2)",
+        "description": "",
+        "scope": "source.python"
+    },
+    "sdate": {
+        "prefix": "sdate",
+        "body": "${1:FIELDNAME} = serializers.DateField($2)",
+        "description": "",
+        "scope": "source.python"
+    },
+    "stime": {
+        "prefix": "stime",
+        "body": "${1:FIELDNAME} = serializers.TimeField($2)",
+        "description": "",
+        "scope": "source.python"
+    },
+    "sduration": {
+        "prefix": "sduration",
+        "body": "${1:FIELDNAME} = serializers.DurationField($2)",
+        "description": "",
+        "scope": "source.python"
+    },
+    "schoice": {
+        "prefix": "schoice",
+        "body": "${1:FIELDNAME} = serializers.ChoiceField(choices=$2)",
+        "description": "",
+        "scope": "source.python"
+    },
+    "smultiplechoices": {
+        "prefix": "smultiplechoices",
+        "body": "${1:FIELDNAME} = serializers.MultipleChoiceField(choices=$2)",
+        "description": "",
+        "scope": "source.python"
+    },
+    "sfile": {
+        "prefix": "sfile",
+        "body": "${1:FIELDNAME} = serializers.FileField($2)",
+        "description": "",
+        "scope": "source.python"
+    },
+    "simage": {
+        "prefix": "simage",
+        "body": "${1:FIELDNAME} = serializers.ImageField($2)",
+        "description": "",
+        "scope": "source.python"
+    },
+    "slist": {
+        "prefix": "slist",
+        "body": "${1:FIELDNAME} = serializers.ListField(child=serializers.$2)",
+        "description": "",
+        "scope": "source.python"
+    },
+    "sdict": {
+        "prefix": "sdict",
+        "body": "${1:FIELDNAME} = serializers.DictField(child=serializers.$2)",
+        "description": "",
+        "scope": "source.python"
+    },
+    "shstore": {
+        "prefix": "shstore",
+        "body": "${1:FIELDNAME} = serializers.HStoreField(child=serializers.CharField($2))",
+        "description": "",
+        "scope": "source.python"
+    },
+    "sjson": {
+        "prefix": "sjson",
+        "body": "${1:FIELDNAME} = serializers.JSONField($2)",
+        "description": "",
+        "scope": "source.python"
     }
 }
