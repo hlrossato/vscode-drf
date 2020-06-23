@@ -1,0 +1,8 @@
+{
+    "rmviewset": {
+        "prefix": "rmviewset",
+        "body": "from rest_framework import viewsets",
+        "description": "",
+        "scope": "source.python"
+    }
+}

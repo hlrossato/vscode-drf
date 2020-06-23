@@ -148,5 +148,35 @@
         "body": "${1:FIELDNAME} = serializers.JSONField($2)",
         "description": "",
         "scope": "source.python"
+    },
+    "sreadonly": {
+        "prefix": "sreadonly",
+        "body": "${1:FIELDNAME} = serializers.ReadOnlyField()",
+        "description": "",
+        "scope": "source.python"
+    },
+    "shidden": {
+        "prefix": "shidden",
+        "body": "${1:FIELDNAME} = serializers.HiddenField()",
+        "description": "",
+        "scope": "source.python"
+    },
+    "smodelfield": {
+        "prefix": "smodelfield",
+        "body": "${1:FIELDNAME} = serializers.ModelField(model_field=$2)",
+        "description": "",
+        "scope": "source.python"
+    },
+    "smethodfield": {
+        "prefix": "smethodfield",
+        "body": "${1:FIELDNAME} = serializers.SerializerMethodField()\r\n\ndef get_${1:FIELDNAME}(self, obj):\r\n    ",
+        "description": "",
+        "scope": "source.python"
+    },
+    "scustomfield": {
+        "prefix": "scustomfield",
+        "body": "class ${1:CLASSNAME}Field(serializers.Field):\r\n    def to_representation(self, value):\r\n        return $2\r\n\n    def to_internal_value(self, data):\r\n        return $3",
+        "description": "",
+        "scope": "source.python"
     }
 }

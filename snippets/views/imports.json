@@ -1,0 +1,20 @@
+{
+    "rfapi": {
+        "prefix": "rfapi",
+        "body": "from rest_framework.views import APIView",
+        "description": "",
+        "scope": "source.python"
+    },
+    "rfgeneric": {
+        "prefix": "rfgeneric",
+        "body": "from rest_framework import generics",
+        "description": "",
+        "scope": "source.python"
+    },
+    "rfstatus": {
+        "prefix": "rfstatus",
+        "body": "from rest_framework import status",
+        "description": "",
+        "scope": "source.python"
+    }
+}

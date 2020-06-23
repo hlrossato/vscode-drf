@@ -19,7 +19,31 @@
             },
             {
                 "language": "python",
+                "path": "./snippets/views/imports.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/views/methods.json"
+            },
+            {
+                "language": "python",
                 "path": "./snippets/serializers/classes.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/serializers/fields.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/serializers/imports.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/viewsets/classes.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/viewsets/imports.json"
             }
         ]
     }

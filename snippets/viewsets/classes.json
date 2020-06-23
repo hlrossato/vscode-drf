@@ -1,0 +1,14 @@
+{
+    "modelviewset": {
+        "prefix": "modelviewset",
+        "body": "class ${1:CLASSNAME}ViewSet(viewsets.ModelViewSet):\r\n    queryset = ${1:CLASSNAME}.objects.all()\r\n    serializer_class = ${1:CLASSNAME}Serializer\r\n    permission_classes = []\r\n\n\n",
+        "description": "",
+        "scope": "source.python"
+    },
+    "readonlymodelviewset": {
+        "prefix": "readonlymodelviewset",
+        "body": "class ${1:CLASSNAME}ViewSet(viewsets.ReadOnlyModelViewSet):\r\n    queryset = ${1:CLASSNAME}.objects.all()\r\n    serializer_class = ${1:CLASSNAME}Serializer\r\n\n\n",
+        "description": "",
+        "scope": "source.python"
+    }
+}

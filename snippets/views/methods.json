@@ -1,0 +1,44 @@
+{
+    "get_queryset": {
+        "prefix": "get_queryset",
+        "body": "def get_queryset(self):\r\n    return super().get_queryset()",
+        "description": "",
+        "scope": "source.python"
+    },
+    "get_object": {
+        "prefix": "get_object",
+        "body": "def get_object(self):\r\n    return super().get_object()",
+        "description": "",
+        "scope": "source.python"
+    },
+    "post": {
+        "prefix": "post",
+        "body": "def post(self, request, *args, **kwargs):\r\n    return super().post(request, *args, **kwargs)",
+        "description": "",
+        "source": "source.python"
+    },
+    "get": {
+        "prefix": "get",
+        "body": "def get(self, request, *args, **kwargs):\r\n    return super().get(request, *args, **kwargs)",
+        "description": "",
+        "source": "source.python"
+    },
+    "delete": {
+        "prefix": "delete",
+        "body": "def delete(self, request, *args, **kwargs):\r\n    return super().delete(request, *args, **kwargs)",
+        "description": "",
+        "source": "source.python"
+    },
+    "put": {
+        "prefix": "put",
+        "body": "def put(self, request, *args, **kwargs):\r\n    return super().put(request, *args, **kwargs)",
+        "description": "",
+        "source": "source.python"
+    },
+    "patch": {
+        "prefix": "patch",
+        "body": "def patch(self, request, *args, **kwargs):\r\n    return super().patch(request, *args, **kwargs)",
+        "description": "",
+        "source": "source.python"
+    }
+}
